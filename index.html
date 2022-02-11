@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Effingham Food Market</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  
+</head>
+<body>
+   <!--pre-loader-->
+   <div class="pre-loader" id="pre-loader">
+    <div class="loader">
+   <img src="img/animated-eat-and-drink-image-0402.gif" alt="">
+  </div>
+  </div>
+
+<header>
+  <div class="container flex">
+
+    <div class="logo">
+      <div class="logo-img flex">
+      <h3>EFM</h3>
+      <img src="img/fork_and_knife_with_plate_20px.png" alt="">
+      </div>
+      <h6>Effingham Food Market</h6>
+    </div>
+
+    <div class="menuToggle " onclick="toggleMenu();"></div>
+
+<nav class="mynav" id="mynav">
+  <ul class="nav" id="nav">
+    <li><a class="a-link actives" href="#banner" onclick="toggleMenu();">Home</a></li>
+    <li><a class="a-link" href="#about" onclick="toggleMenu();">About</a></li>
+    <li><a class="a-link" href="#special" onclick="toggleMenu();">Special</a></li>
+    <li><a class="a-link" href="#services" onclick="toggleMenu();">Services</a></li>
+    <li><a class="a-link" href="#menu" onclick="toggleMenu();">Menu</a></li>
+    <li><a class="a-link" href="#team" onclick="toggleMenu();">Team</a></li>
+    <li><a class="a-link" href="#contact" onclick="toggleMenu();">Contact</a></li>
+  </ul>
+</nav>
+
+    </div>
+</header>
+
+  <!--banner-->
+  <div class="banner" id="banner">
+
+    <div class="banner-content flex">
+      <div class="container">
+        <div class="banner-text">
+         <div class="text-box">
+           <h4>Welcome</h4>
+           <h2 data-text = "Effingham fast Foods">Effingham Fast Foods</h2>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+             Mollitia officia, facere quae vero dolo</p>
+             <div class="button">
+               <a href="#menu">
+                 <button class="btn">
+                   Check Our Menu
+                 </button>
+               </a>
+             </div>
+         </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!--about section-->
+  <section class="about reveal" id="about">
+    <div class="container">
+      <div class="about-content flex">
+        <div class="title">
+        <h1><span>About Us</span></h1>
+        </div>
+
+        <div class="content flex">
+          <div class="txt">
+            <div class="about-text">
+            <h3>We are a proudly known fast food market</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+               Consequuntur omnis alias dignissimos exercitationem cupiditate
+                itaque mollitia quam labore quis et dolorem sapiente odit,
+               illo voluptatum placeat vero delectus libero nesciunt!</p><br>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 Amet labore id, neque quas iure consequuntur animi cum laboriosam 
+                 </p>
+            </div>
+          </div>
+          <div class="txt">
+            <div class="imgbox">
+            <img src="img/about-img-1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--special section-->
+  <section class="special reveal" id="special">
+    <div class="container">
+     <div class="special-content flex">
+      <div class="title">
+        <h1><span>Our Special</span></h1>
+      </div>
+
+      <div class="content">
+        <div class="content-img flex">
+
+          <div class="imgbox">
+
+            <div class="img-1">
+              <img class="sp-meal" src="img/specials-1.png" alt="">
+            </div>
+
+            <div class="price-name">
+              <h1><span>R</span>34</h1>
+              <h3>Food Name</h3>
+              <div class="ratings flex">
+                <ul>
+                <li><img src="img/star_filled_20px.png" alt=""></li>
+                <li><img src="img/star_filled_20px.png" alt=""></li>
+                <li><img src="img/star_filled_20px.png" alt=""></li>
+                <li><img src="img/star_filled_20px.png" alt=""></li>
+                <li><img src="img/star_half_empty_20px.png" alt=""></li>
+                </ul>
+              </div>
+              <p> Amet labore id, neque quas iure</p>
+            </div>
+          </div>
+          <div class="imgbox">
+
+            <div class="img-1">
+              <img class="sp-meal" src="img/specials-2.png" alt="">
+            </div>
+
+            <div class="price-name">
+              <h1><span>R</span>56</h1>
+              <h3>Food Name</h3>
+              <div class="ratings flex">
+                <ul>
+                <li><img src="img/star_filled_20px.png" alt=""></li>
+                <li><img src="img/star_filled_20px.png" alt=""></li>
+                <li><img src="img/star_filled_20px.png" alt=""></li>
+                <li><img src="img/star_filled_20px.png" alt=""></li>
+                <li><img src="img/star_half_empty_20px.png" alt=""></li>
+                </ul>
+              </div>
+              <p> Amet labore id, neque quas iure</p>
+            </div>
+          </div>
+          <div class="imgbox">
+
+            <div class="img-1">
+              <img class="sp-meal" src="img/specials-3.png" alt="">
+            </div>
+
+            <div class="price-name">
+              <h1><span>R</span>23</h1>
+              <h3>Food Name</h3>
+              <div class="ratings flex">
+                <ul>
+                <li><img src="img/star_filled_20px.png" alt=""></li>
+                <li><img src="img/star_filled_20px.png" alt=""></li>
+                <li><img src="img/star_filled_20px.png" alt=""></li>
+                <li><img src="img/star_filled_20px.png" alt=""></li>
+                <li><img src="img/star_half_empty_20px.png" alt=""></li>
+                </ul>
+              </div>
+              <p> Amet labore id, neque quas iure</p>
+            </div>
+          </div> <div class="imgbox">
+
+            <div class="img-1">
+              <img class="sp-meal" src="img/specials-4.png" alt="">
+            </div>
+
+            <div class="price-name">
+              <h1><span>R</span>80</h1>
+              <h3>Food Name</h3>
+              <div class="ratings flex">
+                <ul>
+                <li><img src="img/star_filled_20px.png" alt=""></li>
+                <li><img src="img/star_filled_20px.png" alt=""></li>
+                <li><img src="img/star_filled_20px.png" alt=""></li>
+                <li><img src="img/star_filled_20px.png" alt=""></li>
+                <li><img src="img/star_half_empty_20px.png" alt=""></li>
+                </ul>
+              </div>
+              <p> Amet labore id, neque quas iure</p>
+            </div>
+          </div> <div class="imgbox">
+
+            <div class="img-1">
+              <img class="sp-meal" src="img/specials-5.png" alt="">
+            </div>
+
+            <div class="price-name">
+              <h1><span>R</span>44</h1>
+              <h3>Food Name</h3>
+              <div class="ratings flex">
+                <ul>
+                <li><img src="img/star_filled_20px.png" alt=""></li>
+                <li><img src="img/star_filled_20px.png" alt=""></li>
+                <li><img src="img/star_filled_20px.png" alt=""></li>
+                <li><img src="img/star_filled_20px.png" alt=""></li>
+                <li><img src="img/star_half_empty_20px.png" alt=""></li>
+                </ul>
+              </div>
+              <p> Amet labore id, neque quas iure</p>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+      
+      <div class="button title">
+        <a href="#menu">
+          <button class="btn">Check Our Services</button>
+        </a>
+      </div>
+     </div>
+    </div>
+  </section>
+
+   <!--oUR SERVICES-->
+   <section class="services reveal" id="services">
+    <div class="container">
+      <div class="services-content flex">
+        <div class="title">
+          <h1><span>Services</span></h1>
+        </div>
+
+         <div class="service-container flex">
+           <div class="service-box">
+             <div class="service-imgbox">
+               <img src="img/international_food_100px.png" alt="">
+             </div>
+             <div class="service-text">
+               <h3>International Food</h3>
+                <p>Amet labore id, neque quas iure</p>
+             </div>
+           </div>
+           <div class="service-box">
+            <div class="service-imgbox">
+              <img src="img/delivery_scooter_100px.png" alt="">
+            </div>
+            <div class="service-text">
+              <h3>Food Delivery</h3>
+               <p>Amet labore id, neque quas iure</p>
+            </div>
+          </div>
+          <div class="service-box">
+            <div class="service-imgbox">
+              <img src="img/food_100px.png" alt="">
+            </div>
+            <div class="service-text">
+              <h3>Enjoyable Food</h3>
+               <p>Amet labore id, neque quas iure</p>
+            </div>
+          </div>
+          <div class="service-box">
+            <div class="service-imgbox">
+              <img src="img/wi-fi_100px.png" alt="">
+            </div>
+            <div class="service-text">
+              <h3>Free Wi-fi</h3>
+               <p>Amet labore id, neque quas iure</p>
+            </div>
+          </div>
+          <div class="service-box">
+            <div class="service-imgbox">
+              <img src="img/tea_100px.png" alt="">
+            </div>
+            <div class="service-text">
+              <h3>Tea</h3>
+            
+               <p>Amet labore id, neque quas iure</p>
+            </div>
+          </div>
+         </div>
+      </div>
+    </div>
+  </section>
+
+    <!--call to action area-->
+    <section class="action reveal">
+      <div class="container">
+        <div class="action-content flex">
+          
+          <div class="action-imgbox">
+            <div class="action-text">
+              <h3>The Best Menu under one roof from our house to yours</h3>
+                <a href="#menu">
+                  <button class="btn-menu">Check Our Menu</button>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!--menu section-->
+  <section class="menu reveal" id="menu">
+    <div class="container">
+      <div class="menu-content flex">
+        <div class="title">
+          <h1><span>Our Menu</span></h1>
+        </div>
+        <div class="menu-container flex">
+          <div class="menubox">
+            <div class="menu-text">
+              <h3>Our Menu Special Made <br> Just for You!</h3>
+            </div>
+            <div class="menu-list">
+              <div class="list-box">
+                <div class="menu-list-img">
+                  <img src="img/menu-img-1.png" alt="">
+                </div>
+                <div class="menu-text-box">
+                  <h3><span>R</span>18</h3>
+                  <div class="ratings flex">
+                    <ul>
+                    <li><img src="img/star_filled_20px.png" alt=""></li>
+                    <li><img src="img/star_filled_20px.png" alt=""></li>
+                    <li><img src="img/star_filled_20px.png" alt=""></li>
+                    <li><img src="img/star_half_empty_20pxt.png" alt=""></li>
+                    <li><img src="img/star_half_empty_20pxt.png" alt=""></li>
+                    </ul>
+                  </div>
+                  <h6>Food Name Here</h6>
+                </div>
+              </div>
+              <div class="list-box">
+                <div class="menu-list-img">
+                  <img src="img/menu-img-2.png" alt="">
+                </div>
+                <div class="menu-text-box">
+                  <h3><span>R</span>40</h3>
+                  <div class="ratings flex">
+                    <ul>
+                    <li><img src="img/star_filled_20px.png" alt=""></li>
+                    <li><img src="img/star_filled_20px.png" alt=""></li>
+                    <li><img src="img/star_filled_20px.png" alt=""></li>
+                    <li><img src="img/star_filled_20px.png" alt=""></li>
+                    <li><img src="img/star_half_empty_20pxt.png" alt=""></li>
+                    </ul>
+                  </div>
+                  <h6>Food Name Here</h6>
+                </div>
+              </div>
+              <div class="list-box">
+                <div class="menu-list-img">
+                  <img src="img/menu-img-3.png" alt="">
+                </div>
+                <div class="menu-text-box">
+                  <h3><span>R</span>75</h3>
+                  <div class="ratings flex">
+                    <ul>
+                    <li><img src="img/star_filled_20px.png" alt=""></li>
+                    <li><img src="img/star_filled_20px.png" alt=""></li>
+                    <li><img src="img/star_filled_20px.png" alt=""></li>
+                    <li><img src="img/star_filled_20px.png" alt=""></li>
+                    <li><img src="img/star_half_empty_20pxt.png" alt=""></li>
+                    </ul>
+                  </div>
+                  <h6>Food Name Here</h6>
+                </div>
+              </div>
+              <div class="list-box">
+                <div class="menu-list-img">
+                  <img src="img/menu-img-4.png" alt="">
+                </div>
+                <div class="menu-text-box">
+                  <h3><span>R</span>13</h3>
+                  <div class="ratings flex">
+                    <ul>
+                    <li><img src="img/star_filled_20px.png" alt=""></li>
+                    <li><img src="img/star_filled_20px.png" alt=""></li>
+                    <li><img src="img/star_filled_20px.png" alt=""></li>
+                    <li><img src="img/star_half_empty_20pxt.png" alt=""></li>
+                    <li><img src="img/star_half_empty_20pxt.png" alt=""></li>
+                    </ul>
+                  </div>
+                  <h6>Food Name Here</h6>
+                </div>
+              </div>
+              <div class="list-box">
+                <div class="menu-list-img">
+                  <img src="img/menu-img-5.png" alt="">
+                </div>
+                <div class="menu-text-box">
+                  <h3><span>R</span>30</h3>
+                  <div class="ratings flex">
+                    <ul>
+                    <li><img src="img/star_filled_20px.png" alt=""></li>
+                    <li><img src="img/star_filled_20px.png" alt=""></li>
+                    <li><img src="img/star_filled_20px.png" alt=""></li>
+                    <li><img src="img/star_filled_20px.png" alt=""></li>
+                    <li><img src="img/star_half_empty_20pxt.png" alt=""></li>
+                    </ul>
+                  </div>
+                  <h6>Food Name Here</h6>
+                </div>
+              </div>
+              <div class="list-box">
+                <div class="menu-list-img">
+                  <img src="img/menu-img-6.png" alt="">
+                </div>
+                <div class="menu-text-box">
+                  <h3><span>R</span>25</h3>
+                  <div class="ratings flex">
+                    <ul>
+                    <li><img src="img/star_filled_20px.png" alt=""></li>
+                    <li><img src="img/star_filled_20px.png" alt=""></li>
+                    <li><img src="img/star_filled_20px.png" alt=""></li>
+                    <li><img src="img/star_filled_20px.png" alt=""></li>
+                    <li><img src="img/star_half_empty_20pxt.png" alt=""></li>
+                    </ul>
+                  </div>
+                  <h6>Food Name Here</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="menubox">
+            <div class="menu-imgbox">
+              <img class="mySlides" src="img/bg-2.png" alt="">
+              <img class="mySlides" src="img/mySlide-img-3.jpg" alt="">
+              <img class="mySlides" src="img/mySlide-img-4.jpg" alt="">
+              <img class="mySlides" src="img/mySlide-img-5.jpg" alt="">
+              <img class="mySlides" src="img/mySlide-img-2.jpg" alt="">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--team section -->
+<section class="team reveal" id="team">
+  <div class="container">
+    <div class="team-content flex">
+      <div class="title">
+        <h1><span>Our Team</span></h1>
+      </div>
+
+      <div class="team-container flex">
+        <div class="team-box">
+          <div class="team-imgbox">
+            <img src="img/chef-img-1.jpg" alt="">
+          </div>
+          <div class="team-text">
+            <h3>Chef Name</h3>
+            <p>Amet labore id, neque quas iure</p>
+            <div class="sci">
+              <ul>
+                <li><img src="img/facebook_f_20px.png" alt=""></li>
+                <li><img src="img/twitter_squared_20px.png" alt=""></li>
+                <li><img src="img/instagram_20px.png" alt=""></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="team-box">
+          <div class="team-imgbox">
+            <img src="img/chef-img-2.jpg" alt="">
+          </div>
+          <div class="team-text">
+            <h3>Chef Name</h3>
+            <p>Amet labore id, neque quas iure</p>
+            <div class="sci">
+              <ul>
+                <li><img src="img/facebook_f_20px.png" alt=""></li>
+                <li><img src="img/twitter_squared_20px.png" alt=""></li>
+                <li><img src="img/instagram_20px.png" alt=""></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="team-box">
+          <div class="team-imgbox">
+            <img src="img/chef-img-3.jpg" alt="">
+          </div>
+
+          <div class="team-text">
+            <h3>Chef Name</h3>
+            <p>Amet labore id, neque quas iure</p>
+            <div class="sci">
+              <ul>
+                <li><img src="img/facebook_f_20px.png" alt=""></li>
+                <li><img src="img/twitter_squared_20px.png" alt=""></li>
+                <li><img src="img/instagram_20px.png" alt=""></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="team-box">
+          <div class="team-imgbox">
+            <img src="img/chef-img-4.jpg" alt="">
+          </div>
+          <div class="team-text">
+            <h3>Chef Name</h3>
+            <p>Amet labore id, neque quas iure</p>
+            <div class="sci">
+              <ul>
+                <li><img src="img/facebook_f_20px.png" alt=""></li>
+                <li><img src="img/twitter_squared_20px.png" alt=""></li>
+                <li><img src="img/instagram_20px.png" alt=""></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="team-box">
+          <div class="team-imgbox">
+            <img src="img/chef-img-5.jpg" alt="">
+          </div>
+          <div class="team-text">
+            <h3>Chef Name</h3>
+            <p>Amet labore id, neque quas iure</p>
+            <div class="sci">
+              <ul>
+                <li><img src="img/facebook_f_20px.png" alt=""></li>
+                <li><img src="img/twitter_squared_20px.png" alt=""></li>
+                <li><img src="img/instagram_20px.png" alt=""></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="title">
+        <div class="button">
+          <a href="#contact">
+            <button class="btn">Contact US</button>
+          </a>
+        </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+<!--contact section-->
+<section class="contact reveal" id="contact">
+  <div class="container">
+    <div class="contact-content flex">
+      <div class="title">
+        <h1><span>Get In Touch</span></h1>
+      </div>
+      <div class="contact-content">
+        <div class="contact-box">
+          <h3>Contact Us</h3>
+          <p>Lorem ipsum dolor sit amet consect</p>
+          <div class="conact-info">
+            <div class="info">
+              <img src="img/location_20px.png" alt="">
+              <h6>Call Me Beyonce Street</h6>
+            </div>
+            <div class="info">
+              <img src="img/phone_20px.png" alt="">
+              <h6>+27 315 889 599</h6>
+            </div>
+            <div class="info">
+              <img src="img/new_post_20px.png" alt="">
+              <h6>fastfood@Effingham. co.za</h6>
+            </div>
+          </div>
+          <div class="follow-icons">
+            <h3>Follow Us</h3>
+            <ul>
+              <li><a href="#"><img src="img/facebook_f_20px.png" alt=""></a></li>
+              <li><a href="#"><img src="img/instagram_20px.png" alt=""></a></li>
+              <li><a href="#"><img src="img/twitter_squared_20px.png" alt=""></a></li>
+              <li><a href="#"><img src="img/telegram_app_20px.png" alt=""></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--footer-->
+<footer class="footer reveal">
+<div class="container">
+  <div class="footer-container flex">
+    <div class="footer-box">
+      <h3>About Us</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quis accusamus, possimus consequuntur aliquam, sunt ex assumenda blanditiis aliquid magni magnam .</p>
+    </div>
+    <div class="footer-box">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#banner">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#special">Special</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-box">
+      <h3>Opening Hours</h3>
+      <div class="footer-img">
+        <img class="hours" src="img/footer-open-hour-bg.jpg" alt="">
+        <div class="times">
+          <div class="text-dt">
+              <h4>Days</h4>
+              <h4>time</h4>
+          </div>
+          <div class="text-dt">
+            <h4>Mon - Fri:</h4>
+            <h4>09h00 - 17:h00</h4>
+        </div>
+        <div class="text-dt">
+          <h4>Sat:</h4>
+          <h4>08:h30 - 14:h30</h4>
+      </div>
+      <div class="text-dt">
+        <h4>Sun:</h4>
+        <h4>Closed</h4>
+    </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-box">
+     <div class="sci-links">
+      <h3>Follow Us</h3>
+      <ul>
+        <li><a href="#"><img src="img/facebook_f_20px.png" alt=""></a></li>
+        <li><a href="#"><img src="img/instagram_20px.png" alt=""></a></li>
+        <li><a href="#"><img src="img/twitter_squared_20px.png" alt=""></a></li>
+        <li><a href="#"><img src="img/telegram_app_20px.png" alt=""></a></li>
+      </ul>
+     </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <h6>Copyright &copy;2022 | Nkululeko Mthethwa</h6>
+  </div>
+</div>
+</footer>
+    <!--script here-->
+    <script>
+      var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 6000); // Change image every 2 seconds
+  };
+
+  var nav = document.getElementById("nav");
+  var navlink = nav.getElementsByClassName("a-link");
+
+ for (var i = 0; i < navlink.length; i++){
+ navlink[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("actives");
+  current[0].className = current[0].className.replace(" actives", "");
+  this.className += " actives";
+});
+}
+    </script>
+</body>
+</html>
